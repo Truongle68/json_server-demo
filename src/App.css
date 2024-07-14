@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bor;
+}
+
+.title{
+    text-align: center;
+}
+.white-board{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 85%;
+    margin: 0px auto;
+}
+
+/* left component */
+.d-container{
+    span{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* table component */
+.table-container{
+    button{
+        margin-bottom: 20px;
+    }
+}
+
+/* employee page */
+.e-board{
+    max-width: 80%;
+    margin: 0 auto;
+
+    .d-title{
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+}
